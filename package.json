@@ -1,0 +1,23 @@
+{
+  "name": "combine-callbacks",
+  "version": "0.0.1",
+  "description": "Combine multiple callbacks into one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Riophae Lee <riophaelee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "callback-sequence": "^1.2.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-istanbul": "^0.10.1",
+    "gulp-tape": "0.0.4",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0",
+    "task-tape": "^0.1.0"
+  }
+}
