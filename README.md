@@ -1,6 +1,6 @@
 # combine-callbacks
 
-[![Build Status](https://travis-ci.org/riophae/combine-callbacks.svg)](https://travis-ci.org/riophae/combine-callbacks) [![Dependency Status](https://david-dm.org/riophae/combine-callbacks.svg)](https://david-dm.org/riophae/combine-callbacks)
+[![npm version](https://badge.fury.io/js/combine-callbacks.svg)](https://badge.fury.io/js/combine-callbacks) [![Build Status](https://travis-ci.org/riophae/combine-callbacks.svg)](https://travis-ci.org/riophae/combine-callbacks) [![Dependency Status](https://david-dm.org/riophae/combine-callbacks.svg)](https://david-dm.org/riophae/combine-callbacks)
 
 Combine multiple callbacks into one. Divide up code into smaller units. Improve the reusability & make the code clearer.
 
