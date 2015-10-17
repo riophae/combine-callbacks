@@ -8,6 +8,17 @@
   },
   "author": "Riophae Lee <riophaelee@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riophae/combine-callbacks.git"
+  },
+  "keywords": [
+    "fp",
+    "callback"
+  ],
+  "bugs": {
+    "url": "https://github.com/riophae/combine-callbacks/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "callback-sequence": "^1.2.1",
