@@ -49,7 +49,8 @@ test('with context', function(t) {
   t.plan(1)
 
   var ctx = { foo: 'bar' }
+  var arg = 'x'
 
-  var combination = combineCallbacks(getCtx(done(t, [ ctx, ctx ])))
-  combination.call(ctx, ctx)
+  var combination = combineCallbacks(getCtx(done(t, [ arg, ctx ])))
+  combination.call(ctx, arg)
 })
