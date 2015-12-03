@@ -19,7 +19,7 @@ var preventDefault = function(evt) { evt.preventDefault(); };
 var dispatchAction = function() { ... };
 
 var onClick = combineCallbacks(preventDefault, dispatchAction);
-document.getElementById('elem').addEventListner('click', onClick);
+document.getElementById('elem').addEventListener('click', onClick);
 ```
 
 ## API
