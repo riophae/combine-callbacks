@@ -7,7 +7,7 @@ Combine multiple callbacks into one. Divide up code into smaller units. Improve 
 ## Installation
 
 ```bash
-npm install combine-callbacks
+$ npm install combine-callbacks
 ```
 
 ## Usage
