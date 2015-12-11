@@ -1,7 +1,5 @@
 module.exports = combineCallbacks
 
-var forEach = Array.prototype.forEach
-
 function combineCallbacks(arg0) {
   var callbacks = Array.isArray(arg0) ? arg0 : arguments
 
@@ -9,8 +7,8 @@ function combineCallbacks(arg0) {
     var args = arguments
     var ctx = this
 
-    forEach.call(callbacks, function(cb) {
-      cb.apply(ctx, args)
-    })
+    for (var i = 0, len = callbacks.length; i < len; i++) {
+      callbacks[i].apply(ctx, args)
+    }
   }
 }
