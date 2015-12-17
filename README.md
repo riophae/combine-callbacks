@@ -28,7 +28,7 @@ document.getElementById('elem').addEventListener('click', onClick);
 Returns the final combined callback which receives arguments & context, and then passes them into the original functions.
 
 ### combineCallbacks(arrayOfFuncs)
-You got the idea.
+You get the idea.
 
 ## License
 
