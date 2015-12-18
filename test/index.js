@@ -57,13 +57,9 @@ test('with context', function(t) {
 
 test('should run in order of passed functions', function(t) {
   var expected = [ 1, 2, 3, 4, 5 ]
-  var funcs = []
   var arr = []
-
-  expected.forEach(function(n) {
-    funcs.push(function() {
-      arr.push(n)
-    })
+  var funcs = expected.map(function(n) {
+    return function() { arr.push(n) }
   })
 
   var combination = combineCallbacks(funcs)
