@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = combineCallbacks
 
 function combineCallbacks(arg0) {
