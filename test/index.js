@@ -75,12 +75,10 @@ test('nested usage', function(t) {
   var noop = function noop() {}
 
   var combination = expected.reduce(function(f, n) {
-    return combineCallbacks(f, function() {
-      arr.push(n)
-    })
+    return combineCallbacks(f, function() { arr.push(n) })
   }, noop)
-
   combination()
+
   t.deepEqual(arr, expected)
   t.end()
 })
