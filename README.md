@@ -22,6 +22,8 @@ var onClick = combineCallbacks(preventDefault, dispatchAction);
 document.getElementById('elem').addEventListener('click', onClick);
 ```
 
+For more examples see the test.
+
 ## API
 
 ### combineCallbacks(fn1[, fn2[, fn3...]])
